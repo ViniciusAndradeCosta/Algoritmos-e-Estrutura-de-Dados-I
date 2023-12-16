@@ -1,4 +1,4 @@
-# Estudo de Estruturas de Dados
+# AEDS I -> Algoritmos e Estrutura de Dados I
 
 Este repositório apresenta o estudo dos diversos mecanismos de organização de dados para atender aos diferentes requisitos de processamento. As estruturas de dados definem a organização, métodos de acesso e opções de processamento para a informação manipulada pelo programa. Compreender e escolher a estrutura de dados adequada é crucial para otimizar a eficiência do programa em termos de tempo de execução, uso de memória e facilidade de manutenção.
 
