@@ -1,16 +1,28 @@
-
-# ifndef INTERFACE_H_INCLUDED
-# define INTERFACE_H_INCLUDED
-
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <locale.h>
+#include "interface.h"
 #include "fila.h"
 
-void MSG_MENU();// MENSAGEM PARA EXIBIR O MENU PRINCIPAL
+int main()
+{
 
-void MSG_FILA();
+    setlocale(LC_ALL, "Portuguese");
 
-void MENU(TFila *fila, TFila *fila2, TFila *fila3); // MÓDULO DE MENU
+    TFila fila1;
+    FFVazia(&fila1);
 
-# endif // INTERFACE_H_INCLUDED
+    TFila fila2;
+    FFVazia(&fila2);
+
+    TFila fila3;
+    FFVazia(&fila3);
+
+    MENU(&fila1, &fila2, &fila3);
+
+    LiberarFila(&fila1);
+    LiberarFila(&fila2);
+    LiberarFila(&fila3);
+
+    return 0;
+}
