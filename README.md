@@ -11,7 +11,7 @@ Este repositório apresenta o estudo dos diversos mecanismos de organização de
 
 ## Introdução
 
-Ao longo deste material, exploramos conceitos fundamentais, como listas, pilhas, filas, árvores e grafos, que servem como blocos de construção essenciais no desenvolvimento de algoritmos eficientes. Analisamos as características de cada estrutura de dados, discutindo suas vantagens, limitações e cenários ideais de aplicação. 
+Ao longo deste material, exploramos conceitos fundamentais, que servem como blocos de construção essenciais no desenvolvimento de algoritmos eficientes. Analisamos as características de cada estrutura de dados, discutindo suas vantagens, limitações e cenários ideais de aplicação. 
 
 ## Estruturas de Dados
 
